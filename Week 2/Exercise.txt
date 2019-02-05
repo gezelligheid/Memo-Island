@@ -1,0 +1,8 @@
+(Home)work week 2
+
+A double-ended queue is a list that allows for insertions and removals at either its head or its tail. 
+
+To store the values in the queue, use the linkedlist you wrote in the first week and extend it so you can enter values at the front of the list.
+
+What is the worst case run-time of enqueueing or dequeueing elements from your queue? Is this the best run-time you think?
+Is there an easy way to adapt your program to ensure that each operation in a double-ended queue runs in O(1) time?

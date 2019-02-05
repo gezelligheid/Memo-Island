@@ -1,0 +1,32 @@
+:: (Home)work Exercise 6
+
+This assignment consists of three parts, each cover a different basic algorithm design principle.
+
+:: Divide & Conquer
+	Given a sorted array of integers and a target value, find out if a target exists in the array or not in O(log(n)) time. If target exists in the array, print index of it.
+
+	For example,
+	Input: A[] = [2, 3, 5, 7, 9]
+	target = 7
+	Output: Element found at index 3 
+	Input: A[] = [1, 4, 5, 8, 9]
+	target = 2
+	Output: Element not found
+
+:: Greedy Search
+	Given a set S of activities with start time and finish time of each activity, find the maximum number of activities that can be performed by a single person assuming that a person can only work on a single activity at a time.
+
+	For example,
+	Input: (1, 4), (3, 5), (0, 6), (5, 7), (3, 8), (5, 9), (6, 10), (8, 11), (8, 12), (2, 13), (12, 14)
+	Output: (1 4), (5 7), (8 11), (12 14)
+
+:: Dynamic Programming
+	Given an island in the form of square matrix and a point inside the matrix where a person is standing. The person is allowed to move one step in any direction (right, left, top, down) on the matrix. If he steps outside the matrix, he dies. Calculate the probability that he is alive after he walks n steps on the island?
+
+	For example,
+	Input: 3 x 3 matrix
+	Starting coordinates – (0, 0)
+	Number of steps = 3
+	Output: Alive Probability is 0.25
+
+	You may assume that the person takes each action with probability of 0.25, or with unequal probabilities.

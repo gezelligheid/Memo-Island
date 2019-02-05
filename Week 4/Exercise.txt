@@ -1,0 +1,6 @@
+::: (Home)work exercise 4.
+
+1. In the attachments you find a hardly useful hashtable implementation.
+ - What's wrong with this implementation? (hint: think about what happens when a collision occurs?)
+
+2. Improve the hashtable implementation so it is actually useful.

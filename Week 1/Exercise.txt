@@ -1,0 +1,8 @@
+::: (Home)work exercise 1
+
+Start by examining the Node.java and LinkedList.java files.
+Try to comprehend how these two classes can be used to construct a complete list.
+
+1. Finish the methods in the LinkedList.java and Node.java file
+
+2. Check your implementation by running the LinkedListExample class
