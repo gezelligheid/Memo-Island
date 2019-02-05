@@ -6,8 +6,9 @@ public class LinkedList<T> {
 
     /* Inserts a new Node at front of the list. */
     public void add(T data) {
-        Node<T> tNode = new Node() {
-        }
+        Node<T> tNode = new Node<>(data);
+        tNode.setNext(head);
+        head = tNode;
 
     }
 
