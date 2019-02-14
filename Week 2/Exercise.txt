@@ -6,3 +6,4 @@ To store the values in the queue, use the linkedlist you wrote in the first week
 
 What is the worst case run-time of enqueueing or dequeueing elements from your queue? Is this the best run-time you think?
 Is there an easy way to adapt your program to ensure that each operation in a double-ended queue runs in O(1) time?
+"track a tail"

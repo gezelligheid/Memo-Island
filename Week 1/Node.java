@@ -1,8 +1,11 @@
-public class Node<T>
-{
+public class Node<T> {
     T data;
     Node<T> next;
-    Node(T d)  { data = d;  next = null; }
+
+    Node(T d) {
+        data = d;
+        next = null;
+    }
 
     public void setNext(Node<T> newNext) {
         next = newNext;
@@ -13,6 +16,6 @@ public class Node<T>
     }
 
     public T getElement() {
-    	return data;
+        return data;
     }
 }

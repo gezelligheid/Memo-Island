@@ -1,7 +1,7 @@
-import javax.xml.soap.Node;
+import java.util.List;
 
 // Singly Linked List class
-public class LinkedList<T> {
+public class LinkedList<T>  {
     Node<T> head;  // head of list
 
     /* Inserts a new Node at front of the list. */
@@ -9,6 +9,7 @@ public class LinkedList<T> {
         Node<T> tNode = new Node<>(data);
         tNode.setNext(head);
         head = tNode;
+
 
     }
 
@@ -20,10 +21,12 @@ public class LinkedList<T> {
     /* Get data at index i */
     public T get(int i) {
         // Finish this method
+        return head.getElement();
     }
 
     /* Returns count of nodes in linked list */
     public int getCount() {
         // Finish this method
+        return -1;
     }
 }
