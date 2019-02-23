@@ -1,0 +1,16 @@
+::: (Home)work exercise 2.
+
+---- You can use these classes for lab exercise 2 ----
+
+1. Finish the node.java file by completing all the methods.
+
+2. Test your program by running TreeExample.java. The output should be:
+
+  node 1
+    node 11
+        node 111
+        node 112
+    node 12
+  node 2
+    node 21
+    node 22
