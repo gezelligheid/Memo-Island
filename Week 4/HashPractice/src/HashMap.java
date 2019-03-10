@@ -19,21 +19,22 @@ public class HashMap<E> {
         if (table[hash] == null)
             return null;
         else {
-            Iterator iterator = table[hash].iterator();
-            while (iterator.hasNext()){
-                HashEntry<E> theValue = (HashEntry<E>) iterator.next();
-                if (theValue.getKey() == key){
+            Iterator<HashEntry<E>> iterator = table[hash].iterator();
+            while (iterator.hasNext()) {
+                HashEntry<E> theValue = iterator.next();
+                if (theValue.getKey() == key) {
                     return theValue.getValue();
-                } else {
-                    return null;
                 }
             }
         }
         return null;
     }
 
-    public void put(int key, int value) {
+    public void put(int key, E value) {
         int hash = (key % TABLE_SIZE);
-        table[hash].push(new HashEntry(key, value));
+        if (table[hash] == null){
+            table[hash] = new LinkedList<>();
+        }
+        table[hash].push(new HashEntry<>(key, value));
     }
 }
