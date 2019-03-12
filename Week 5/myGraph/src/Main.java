@@ -52,7 +52,7 @@ public class Main {
         Set<Vertex> seenSet = new HashSet<>(); // same as current path
 
         String startVertexId = "T";
-        String targetVertexId = "N";
+        String targetVertexId = "U";
 
         Vertex source = graph.getVertexById(startVertexId);
         Vertex destination = graph.getVertexById(targetVertexId);
@@ -64,22 +64,61 @@ public class Main {
         //test
         System.out.println(graph.getNeighbours("M").toString());
 
-        recursivePaths(graph,source,destination,seenSet,currentPath);
+        recursivePaths(graph, source, destination, seenSet, currentPath);
 
 
         // how many paths found
         System.out.println("paths: " + allPaths.size());
 
 
+//        int testfill = stopsGivenBottle(graph, allPaths.getFirst(), 4);
+//        System.out.println("first path needs at most: " + testfill + " fills");
+
+        LinkedList<Vertex> bestPath = null;
+        int minStops = 9000;
+
+        int testBottle = 4;
 
         for (LinkedList<Vertex> path : allPaths) {
-            for (Vertex v: path) {
-                System.out.print(v.toString() + " -> ");
+            int stops = stopsGivenBottle(graph, path, testBottle);
+            if (stops > -1 && stops < minStops) {
+                bestPath = (LinkedList<Vertex>) path.clone();
+                minStops = stops;
             }
-            System.out.println();
         }
+        if (bestPath != null) {
+            System.out.println("The desert cross path from hole " + startVertexId +
+                    " to " + targetVertexId + " with minimum number of " + minStops + " fills is: ");
+            System.out.println(bestPath.toString());
+        } else {
+            System.out.println("No path possible");
+        }
+
     }
 
+    /**
+     * returns a lower bound on the number of stops needed traversing a path given a bottle distance capacity
+     */
+    public static int stopsGivenBottle(Graph graph, LinkedList<Vertex> path, int bottleSize) {
+        Iterator<Vertex> vertexIterator = path.listIterator(1);
+        int fills = 1;
+        int waterLevel = bottleSize;
+        Vertex source = path.getFirst();
+        while (vertexIterator.hasNext()) {
+            Vertex next = vertexIterator.next();
+            int distance = graph.edgeWeight(source.getId(), next.getId());
+            if (bottleSize - distance >= 0) {
+                if (waterLevel - distance >= 0) {
+                    waterLevel = waterLevel - distance;
+                } else {
+                    fills++;
+                    waterLevel = bottleSize;
+                }
+            } else return -1;
+            source = next;
+        }
+        return fills;
+    }
 
     public static void recursivePaths(Graph graph, Vertex node, Vertex destination, Set<Vertex> seen, LinkedList<Vertex> path) {
         if (node.equals(destination))
@@ -95,40 +134,6 @@ public class Main {
             }
         }
     }
-
-
-//    private static boolean stuck(Vertex toCheck) {
-//        if (toCheck.getId().equals(targetVertex)) {
-//            return false;
-//        }
-//        List<Vertex> adjacent = graph.getNeighbours(toCheck.getId());
-//        for (Vertex v : adjacent) {
-//            if (!seenSet.contains(v)) {
-//                seenSet.add(v);
-////                currentPath.add(v);
-//                if (!stuck(v)) {
-//                    return false;
-//                }
-//            }
-//        }
-//        return true;
-//    }
-//
-//    private static void searchAllPaths(Vertex start) {
-//        if (start.getId().equals(targetVertex)) {
-//            allPaths.add(currentPath);
-//        }
-//
-//        if (stuck(start)) {
-//            return;
-//        }
-//        List<Vertex> adjacent = graph.getNeighbours(start.getId());
-//        for (Vertex v : adjacent) {
-//            currentPath.push(v);
-//            searchAllPaths(v);
-//            currentPath.removeLastOccurrence(v);
-//        }
-//    }
 
 
 }

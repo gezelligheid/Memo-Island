@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9215d1-e7c3-4f55-bea4-c5531c211661" name="Default Changelist" comment="tried DFS">
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week 4/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myGraph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myGraph/Edge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myGraph/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myGraph/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myGraph/Vertex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vertex.java" afterDir="false" />
+    <list default="true" id="5f9215d1-e7c3-4f55-bea4-c5531c211661" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myGraph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myGraph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myGraph/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myGraph/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,16 +21,16 @@
     <option name="myElementSize" value="215" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6978827">
+    <splitter split-orientation="horizontal" split-proportion="0.77483445">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.7546729">
+        <splitter split-orientation="horizontal" split-proportion="0.8603133">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Main.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="646">
-                      <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+                    <state relative-caret-position="255">
+                      <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
                     </state>
                   </provider>
                 </entry>
@@ -97,8 +77,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Graph.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="635">
-                  <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+                <state relative-caret-position="206">
+                  <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -122,9 +102,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="width" value="2417" />
-    <option name="height" value="2104" />
+    <option name="x" value="-11" />
+    <option name="width" value="2382" />
+    <option name="height" value="2102" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,7 +182,7 @@
       <workItem from="1552229434861" duration="7418000" />
       <workItem from="1552315905543" duration="6638000" />
       <workItem from="1552372156285" duration="15992000" />
-      <workItem from="1552398515071" duration="271000" />
+      <workItem from="1552398515071" duration="5741000" />
     </task>
     <task id="LOCAL-00001" summary="made some edges for assignment 4">
       <created>1552237273816</created>
@@ -211,17 +191,33 @@
       <option name="project" value="LOCAL" />
       <updated>1552237273816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="path finder done">
+      <created>1552398897893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552398897893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35885000" />
+    <option name="totallyTimeSpent" value="41355000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1381" height="1202" extended-state="0" />
+    <frame x="-6" y="0" width="1361" height="1201" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0718065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07290867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -235,7 +231,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959852" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -259,7 +255,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made some edges for assignment 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="made some edges for assignment 4" />
+    <MESSAGE value="path finder done" />
+    <option name="LAST_COMMIT_MESSAGE" value="path finder done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../Week 4/HashMap.java">
@@ -290,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        <state relative-caret-position="206">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -300,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
         </state>
       </provider>
     </entry>
