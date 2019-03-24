@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f9215d1-e7c3-4f55-bea4-c5531c211661" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myGraph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myGraph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myGraph/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myGraph/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +26,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Main.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="255">
+                    <state relative-caret-position="1530">
                       <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
                     </state>
                   </provider>
@@ -102,9 +99,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="2382" />
-    <option name="height" value="2102" />
+    <option name="x" value="-13" />
+    <option name="width" value="2384" />
+    <option name="height" value="2104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,6 +180,7 @@
       <workItem from="1552315905543" duration="6638000" />
       <workItem from="1552372156285" duration="15992000" />
       <workItem from="1552398515071" duration="5741000" />
+      <workItem from="1552724465781" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="made some edges for assignment 4">
       <created>1552237273816</created>
@@ -202,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41355000" />
+    <option name="totallyTimeSpent" value="41587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,10 +212,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1361" height="1201" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1362" height="1202" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07290867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.073619634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,6 +259,13 @@
     <entry file="file://$PROJECT_DIR$/../../Week 4/HashMap.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -292,13 +296,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
         </state>
       </provider>
     </entry>
